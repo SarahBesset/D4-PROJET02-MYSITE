@@ -1,0 +1,281 @@
+/*
+
+blue : #3300ff
+
+font-family: 'Open Sans Condensed', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  background-color : #fff;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+}
+
+h1, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', cursive;
+  color : #3300ff;
+  text-align: center;
+}
+
+
+  h2 {
+  color : #fff;
+  text-align: center;
+}
+
+
+h1 {
+
+}
+
+a {
+  color : #3300ff;
+  transition: all 0.6s;
+}
+
+a:hover {
+  color : #aaaaaa;
+}
+
+a::after {
+  content: " >";
+
+}
+
+header {
+  min-height: 80vh;
+  background-image: url('images/bg-image-header.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.triangle::after {
+  content: " ";
+  display: block;
+  width : 40px;
+  height : 40px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-270%) rotate(45deg) translateY(-115px);
+  background-color: #fff;
+
+
+}
+
+section {
+
+}
+
+.nastyadvert {
+background-image: url('images/people.gif');
+background-size: cover;
+background-attachment: fixed;
+min-height: 60vh;
+position: relative;
+}
+
+.nastyadvert .container {
+  position: absolute;
+  top: 50%;
+  left : 50%;
+  transform: translateY(-50%)  translateX(-50%) ;
+}
+
+
+
+#bio {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+#bio h1 {
+  display: none;
+
+}
+
+.bio-content-block {
+  max-width: 960px;
+  margin: 0 auto;
+  columns: 2;
+
+}
+
+#comp {
+  background-color: #fff;
+  color : #3300ff;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.comp-section-content {
+ display: flex;
+ justify-content: space-around;
+}
+
+.comp-content {
+  width : auto;
+  margin : 20px;
+}
+
+.comp-content p {
+  padding: 1em;
+
+}
+
+.comp-content img {
+  width : 100%;
+}
+
+.comp-content a {
+  display: block;
+  padding : 1em;
+  float: right;
+}
+
+#portfolio
+{
+
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin : 40px;
+  padding : 40px;
+  padding-bottom: 80px;
+
+}
+
+.portfolio-content-item {
+  max-width: 300px;
+  margin : 20px;
+  position : relative;
+}
+
+.portfolio-content-item h2 {
+  position: absolute;
+  top : 85%;
+  left : 70%;
+  border: 2px solid #3300ff;
+}
+
+.portfolio-content-item img {
+  width : 100%;
+
+}
+
+
+
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #727172 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: #14a2a4; 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+  justify-content: center;
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    text-align: center;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 20em;
+}
+.footer #container{
+justify-content: center;
+	margin-top:30px;
+  margin-bottom:30px;
+
+	width:100%;
+height:100%;
+  position:relative;
+  top:0;
+  left:0;
+	background: #fff;
+}
+.footer #cont{
+  justify-content: center;
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align: center;
+}
+.footer h3{
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+#textdemerde{
+  text-align: center;
+}
+footer {
+  justify-content: center;
+  background-color: #3300ff;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.linklist {
+  justify-content: center;
+  list-style-type: none;
+  margin: 50;
+  padding: 0;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+#gm{
+  width: 100vw
+}
